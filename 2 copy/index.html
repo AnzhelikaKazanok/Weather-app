@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Josefin+Slab:wght@100;300;400&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div class="current-location">
+          <h1 class="main-city">Kyiv</h1>
+          <h4>Tuesday</h4>
+          <h5 class="date-today">May, 17th</h5>
+          <h5 class="time-today">14:00</h5>
+          <span class="current-degree">25°C</span>
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>km/h</li>
+          </ul>
+        </div>
+        <form class="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="search"
+                placeholder="Enter your city name"
+                class="form-control"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="days-information">
+          <div class="row inform">
+            <div class="block-1 col">
+              <h5 class="name-day">Wednesday</h5>
+              <p class="degree">
+                ☀️
+                <br />
+                <strong> 22°C </strong>
+                15°C
+              </p>
+              <footer class="condition">Sunny</footer>
+            </div>
+            <div class="block-1 col">
+              <h5 class="name-day">Thursday</h5>
+              <p class="degree">
+                ☀️
+                <br />
+                <strong> 22°C </strong>
+                15°C
+              </p>
+              <footer class="condition">Sunny</footer>
+            </div>
+
+            <div class="block-1 col">
+              <h5 class="name-day">Friday</h5>
+              <p class="degree">
+                ☀️
+                <br />
+                <strong> 22°C </strong>
+                15°C
+              </p>
+              <footer class="condition">Sunny</footer>
+            </div>
+            <div class="block-1 col">
+              <h5 class="name-day">Saturday</h5>
+              <p class="degree">
+                ☀️
+                <br />
+                <strong> 22°C </strong>
+                15°C
+              </p>
+              <footer class="condition">Sunny</footer>
+            </div>
+            <div class="block-1 col">
+              <h5 class="name-day">Sunday</h5>
+              <p class="degree">
+                ☀️
+                <br />
+                <strong> 22°C </strong>
+                15°C
+              </p>
+              <footer class="condition">Sunny</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

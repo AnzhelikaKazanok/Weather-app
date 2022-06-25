@@ -1,0 +1,84 @@
+.weather-app {
+  border: 1px solid #655b6a;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  height: 450px;
+  background-color: #b2a7b8;
+  font-family: josefin slab;
+}
+.current-location {
+  border: 1px solid #655b6a;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  max-width: 150px;
+  height: 400px;
+  background-color: #ece6ef;
+}
+.main-city {
+  text-align: center;
+  font-size: 35px;
+}
+h4 {
+  text-align: center;
+  font-size: 15px;
+}
+.date-today {
+  text-align: center;
+  font-size: 15px;
+}
+.time-today {
+  text-align: center;
+  font-size: 15px;
+  height: 70px;
+}
+.current-degree {
+  display: block;
+  margin: 0 auto;
+  font-size: 35px;
+}
+ul {
+  list-style: none;
+  padding: 50px;
+}
+form {
+  position: relative;
+  bottom: 370px;
+  left: 245px;
+  max-width: 500px;
+}
+.block-1 {
+  border: 1px solid #655b6a;
+  border-radius: 5px;
+  max-width: 80px;
+  height: 200px;
+  background-color: #ece6ef;
+}
+.days-information {
+  position: relative;
+  left: 180px;
+  top: -250px;
+}
+.inform {
+  column-gap: 10px;
+  width: 80%;
+}
+.name-day {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+.degree {
+  text-align: center;
+  padding: 15px;
+}
+.condition {
+  text-align: center;
+  padding: 10px;
+}
+.form-control btn btn-primary {
+  background-color: #655b6a;
+}
